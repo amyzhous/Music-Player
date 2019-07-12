@@ -8,6 +8,7 @@ updateArtistQuery = event => {
 }
 
 handleKeyPress = event => {
+    console.log("hi");
     if(event.key === 'Enter') {
         this.searchArtist();
     }
