@@ -16,6 +16,7 @@ class Tracks extends Component {
                 this.setState({ playing: false });
             } else {
                 audio.play();
+                console.log("Pickel is my hubby!");
                 this.setState({ audio, playingPreviewURL: previewUrl });
             }
         }
